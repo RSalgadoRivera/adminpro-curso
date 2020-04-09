@@ -4,7 +4,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { PagesComponent } from './pages.component';
 
-// ng2 - charts 
+// ng2 - charts
 import { ChartsModule } from 'ng2-charts';
 
 import { ProgressComponent } from './progress/progress.component';
@@ -14,9 +14,10 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PAGES_ROUTES } from './pages.routes';
 
 
-// temporal 
+// temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica/grafica-dona.component';
+import { AccuntSettingsComponent } from './account-settings/accunt-settings.component';
 
 @NgModule({
     declarations: [
@@ -25,7 +26,8 @@ import { GraficaDonaComponent } from '../components/grafica/grafica-dona.compone
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficaDonaComponent
+        GraficaDonaComponent,
+        AccuntSettingsComponent
     ],
     exports: [
         PagesComponent,
